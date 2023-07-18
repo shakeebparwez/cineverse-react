@@ -1,6 +1,7 @@
 import { useSearchParams } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
 import { Card } from "../components";
+import { useTitle } from "../hooks/useTitle";
 
 export const Search = ({apiPath}) => {
   const [searchParams] = useSearchParams();
@@ -8,13 +9,15 @@ export const Search = ({apiPath}) => {
 
   const { data: movies } = useFetch(apiPath, queryTerm);
 
+  const pageTitle = useTitle(`Search Result for ${queryTerm}`);
+
   return (
     <main>
       <section className="py-7">
-        <p className="text-3xl text-gray-700 dark:text-white">{ movies.length === 0 ? `No Result Found for '${queryTerm}'` : `Result for '${queryTerm}'` }</p>
+        <p className="text-3xl text-gray-700 dark:text-white">{ movies.length === 0 ? `No Result Found for '${queryTerm}'` : `Search Result for '${queryTerm}'` }</p>
       </section>
       <section className="max-w-7xl mx-auto py-7">
-        <div className="flex justify-start flex-wrap">       
+        <div className="flex justify-start flex-wrap other:justify-evenly">       
           { movies.map((movie) => (
             <Card key={movie.id} movie={movie} />
           )) }          
