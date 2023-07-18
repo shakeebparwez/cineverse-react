@@ -26,6 +26,6 @@ Pull requests are welcome! If you have any suggestions, new features, or bug fix
 
 ## Feedback and Support
 
-We value your feedback and are here to help if you encounter any issues. If you have any questions, suggestions, or just want to say hello, please don't hesitate to reach out to our friendly support team at cineverse-support@example.com.
+If you have any questions, suggestions, or just want to say hello, please don't hesitate to reach out at shakeebparwez@gmail.com.
 
 So, what are you waiting for? Grab your popcorn, dim the lights, and join us on this exciting cinematic adventure. CineVerse is your gateway to an unforgettable movie experience like no other. Happy exploring, and may the movies be with you! 🍿🎉
