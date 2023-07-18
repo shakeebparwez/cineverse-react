@@ -1,12 +1,14 @@
 🎬 CineVerse - Lights, Camera, React! 🎥
 
-Welcome to CineVerse, your go-to movie paradise! This is not just your average movie information website; it's a passion project born out of love for films and the desire to create a fun, immersive experience for all movie buffs out there. With a mix of custom hooks, React Router, and a touch of movie magic, CineVerse is here to revolutionize the way you explore and enjoy the world of cinema.
+Welcome to CineVerse, your go-to movie paradise! This is not just your average movie information website; it's a passion project born out of love for films and the desire to create a fun, immersive experience for all movie buffs out there. With a mix of custom hooks, React Router, Tailwind CSS, and a touch of movie magic, CineVerse is here to revolutionize the way you explore and enjoy the world of cinema.
 
 ![screenshot](screenshot.png)
 
 ## Features
 
 🌟 **Discover Movies**: CineVerse brings the silver screen to your fingertips. Explore a vast library of movies, including popular releases, upcoming gems, and everything in between. Thanks to the power of the TMDB API integration, you can browse through a rich collection of movie information, including captivating images and enticing descriptions.
+
+💅 **Tailwind CSS**: CineVerse's stunning visual design is powered by Tailwind CSS. With its utility-first approach, Tailwind CSS offers a flexible and responsive styling system, ensuring a sleek and eye-catching user interface that enhances the overall movie browsing experience.
 
 🎭 **Genre Galore**: Dive into the heart of different genres and unearth hidden treasures waiting to be discovered. Whether you're in the mood for comedy, drama, action, or something entirely different, CineVerse has you covered. Explore genre-specific movie lists and expand your cinematic horizons.
 
