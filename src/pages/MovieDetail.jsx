@@ -16,7 +16,7 @@ export const MovieDetail = () => {
       console.log(json);
     }
     fetchMovie();
-  }, [])
+  }, [params.id])
 
   const pageTitle = useTitle(movie.title);
 
